@@ -1,0 +1,24 @@
+<assembly>
+    <id>nodejs</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+	    <directory>node-v0.8.7-linux-x64/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <useDefaultExcludes>false</useDefaultExcludes>
+        </fileSet>
+	<fileSet>
+            <directory>node-v0.8.7-linux-x64/lib</directory>
+            <outputDirectory>lib</outputDirectory>
+            <useDefaultExcludes>false</useDefaultExcludes>
+        </fileSet>
+	<fileSet>
+            <directory>node-v0.8.7-win32</directory>
+            <outputDirectory>bin</outputDirectory>
+            <useDefaultExcludes>false</useDefaultExcludes>
+        </fileSet>
+    </fileSets>
+</assembly>
